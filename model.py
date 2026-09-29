@@ -10,7 +10,7 @@ from sklearn.metrics import accuracy_score, classification_report, confusion_mat
 from tensorflow import keras
 from tensorflow.keras import layers
 
-df = pd.read_csv(r"C:\Users\sahar\OneDrive\Desktop\ds and ml files\Alphabets_data.csv")
+df = pd.read_csv("Alphabets_data.csv")
 
 X = df.iloc[:, 1:]
 y = df.iloc[:, 0]
